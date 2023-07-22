@@ -36,4 +36,14 @@ for (const file of eventFiles) {
 	}
 }
 
+var ious = {
+    running_total: 0,
+    history : []
+};
+// const FileSystem = require("fs");
+
+//  FileSystem.writeFile('./data/iou.json', JSON.stringify(ious), (error) => {
+//     if (error) throw error;
+//   });
+
 client.login(token);
