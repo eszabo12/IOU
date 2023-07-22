@@ -13,7 +13,7 @@ function prettify(dict){
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('enter')
-        .setDescription('json person, amount, num, denom, note')
+        .setDescription('Create an entry')
         .addStringOption(option =>
             option.setName('person')
                 .setDescription('Person who paid (not case sensitive)')
